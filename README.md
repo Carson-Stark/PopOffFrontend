@@ -5,6 +5,8 @@
 ## Project Overview
 PopOff is a short form video social media mobile app designed to replicate the core features of TikTok. The app allows users to create accounts, upload and share videos, interact with other users through likes, comments, and follows, and discover content through an intelligent recommendation algorithm. Built with a full stack approach, PopOff leverages React Native Expo for the mobile frontend, Django REST Framework for the backend API, PostgreSQL for data storage, and AWS for cloud infrastructure. The project was created as a challenge to build and deploy a TikTok clone within 24 hours, with the goal of launching on both the App Store and Play Store.
 
+> This is the frontend repository, find the backend repository here: https://github.com/Carson-Stark/PopOffBackend
+
 ## Features
 - User account creation and authentication
 - Home page with scrollable feed of vertical videos posted by other users
@@ -31,12 +33,12 @@ https://github.com/user-attachments/assets/d6255bad-26f2-402e-b5ad-174d4d484bc2
 ### Prerequisites
 - Node.js and npm installed. You can download them from https://nodejs.org/.
 - Expo CLI installed globally (`npm install -g expo-cli`)
-- Backend server running (see linked backend repository)
+- Backend server running locally or on the cloud (see linked [backend repository](https://github.com/Carson-Stark/PopOffBackend))
 
 ### Installation Steps
 1. Clone the repository:
    ```
-   git clone [repository-url]
+   git clone https://github.com/Carson-Stark/PopOffFrontend
    cd PopOff
    ```
 2. Install frontend dependencies and Expo CLI:
@@ -133,7 +135,7 @@ Following these practices will help maintain a stable and secure native build en
 
 This project integrates FFmpeg Kit version 6.0-2 full-gpl package for advanced multimedia processing on Android.
 
-## Licensing (GPL-2)
+### Licensing (GPL-2)
 
 This project is licensed under **GPL-2 (or later)** due to the inclusion of the **FFmpeg Kit `full-gpl` package**. The use of GPL components in FFmpeg requires the entire project to comply with GPL-2 licensing terms when distributed, including:
 
