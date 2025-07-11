@@ -133,6 +133,20 @@ Following these practices will help maintain a stable and secure native build en
 
 This project integrates FFmpeg Kit version 6.0-2 full-gpl package for advanced multimedia processing on Android.
 
+## Licensing (GPL-2)
+
+This project is licensed under **GPL-2 (or later)** due to the inclusion of the **FFmpeg Kit `full-gpl` package**. The use of GPL components in FFmpeg requires the entire project to comply with GPL-2 licensing terms when distributed, including:
+
+- **Providing access to the complete corresponding source code** upon distribution.
+- **Allowing modifications and redistribution** under the same GPL-2 (or later) terms.
+- Ensuring **all linked and derived works are also GPL-compatible** when distributing binaries.
+
+If you plan to distribute this project (including on the Play Store), review your full dependency chain to ensure GPL compliance and consult legal counsel if needed.
+
+For details on FFmpeg’s GPL requirements, see:
+- [FFmpeg Licensing](https://ffmpeg.org/legal.html)
+- [FFmpeg Kit Licensing](https://github.com/arthenica/ffmpeg-kit/blob/main/LICENSE.GPLv3)
+
 ### Key Customizations and Settings
 
 - The FFmpeg Kit AAR file (`ffmpeg-kit-full-gpl-6.0-2.aar`) is included locally in the `android/app/libs` directory and referenced explicitly in the build configuration.
